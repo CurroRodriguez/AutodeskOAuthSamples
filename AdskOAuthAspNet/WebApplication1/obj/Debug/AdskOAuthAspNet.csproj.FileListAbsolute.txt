@@ -1,0 +1,45 @@
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\RestSharp.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.IO.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Extensions.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Primitives.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.WebRequest.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Runtime.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Threading.Tasks.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\RestSharp.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.IO.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Extensions.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Primitives.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.WebRequest.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Runtime.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\bin\System.Threading.Tasks.xml
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\obj\Debug\AdskOAuthAspNet.csproj.App.config
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\duda\documents\visual studio 11\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\WebApplication1.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\WebApplication1.pdb
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\RestSharp.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.IO.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.Extensions.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.Primitives.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.WebRequest.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Runtime.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Threading.Tasks.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\RestSharp.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.IO.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.Extensions.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.Primitives.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Net.Http.WebRequest.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Runtime.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\bin\System.Threading.Tasks.xml
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\obj\Debug\AdskOAuthAspNet.csproj.App.config
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\obj\Debug\AdskOAuthAspNet.csprojResolveAssemblyReference.cache
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\duda\Documents\GitHub\Oxygen-Samples\AdskOAuthAspNet\WebApplication1\obj\Debug\WebApplication1.pdb

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OAuthSampleAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Request_Token">Authenticate</string>
+    <string name="Consumer_Secret">consumer secret:</string>
+    <string name="Consumer_Key">consumer key:</string>
+    <string name="title_activity_account">Access Token</string>
+
+</resources>

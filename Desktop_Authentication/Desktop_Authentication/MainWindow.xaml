@@ -1,0 +1,23 @@
+﻿<Window x:Name="oxygenWnd" x:Class="Desktop_Authentication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="603.507" Width="651.866" Initialized="oxygenWnd_Initialized">
+    <Grid>
+        <RichTextBox x:Name="logOutput" Margin="227,15,10,10">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="rqstTokenButton" Content="Get Request Token" HorizontalAlignment="Left" Margin="29,82,0,0" VerticalAlignment="Top" Width="176" Height="41" Click="rqstTokenButton_Click"/>
+        <CheckBox x:Name="oobCheckBox" Content="Out of band Authorization" HorizontalAlignment="Left" Margin="29,15,0,0" VerticalAlignment="Top" Checked="oobCheckBox_Checked" Unchecked="oobCheckBox_Unchecked"/>
+        <Button x:Name="authorizeTokenBtn" Content="Authorize Token" HorizontalAlignment="Left" Margin="29,152,0,0" VerticalAlignment="Top" Width="176" Height="40" Click="authorizeTokenBtn_Click"/>
+        <Label x:Name="verifierPinLabel" Content="Verifier PIN:" HorizontalAlignment="Left" Margin="29,199,0,0" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="pinTxt" HorizontalAlignment="Left" Height="23" Margin="29,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="acssTokenBtn" Content="Get Access Token" HorizontalAlignment="Left" Margin="29,293,0,0" VerticalAlignment="Top" Width="176" Height="42" Click="acssTokenBtn_Click"/>
+        <Button x:Name="refreshTokenBtn" Content="Refresh Token" HorizontalAlignment="Left" Margin="29,360,0,0" VerticalAlignment="Top" Width="176" Height="40" Click="refreshTokenBtn_Click"/>
+        <Button x:Name="invalidateButton" Content="Invalidate Token" HorizontalAlignment="Left" Margin="29,425,0,0" VerticalAlignment="Top" Width="176" Height="40" IsCancel="True" Click="invalidateButton_Click"/>
+
+    </Grid>
+</Window>

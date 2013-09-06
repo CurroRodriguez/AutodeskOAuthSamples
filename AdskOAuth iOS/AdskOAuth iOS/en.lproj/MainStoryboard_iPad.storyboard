@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8a4-bx-ObW">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hZ-1D-X5f">
+                                <items>
+                                    <barButtonItem title="Log In" id="hmw-Qd-OtG">
+                                        <connections>
+                                            <action selector="LogInClick:" destination="2" id="Nbu-yg-0m5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" systemItem="refresh" id="cav-wL-suG">
+                                        <connections>
+                                            <action selector="RefreshClick:" destination="2" id="itY-Jw-qVZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="OOB" id="hBs-iH-ZBu">
+                                        <connections>
+                                            <action selector="OobClick:" destination="2" id="PTh-sQ-pBp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wu5-re-kvL">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="FPS-vK-Eea"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wu5-re-kvL" firstAttribute="top" secondItem="8a4-bx-ObW" secondAttribute="top" type="default" id="C9o-hd-DVz"/>
+                            <constraint firstItem="Wu5-re-kvL" firstAttribute="trailing" secondItem="8a4-bx-ObW" secondAttribute="trailing" type="default" id="Faq-mc-gbY"/>
+                            <constraint firstItem="2hZ-1D-X5f" firstAttribute="bottom" secondItem="8a4-bx-ObW" secondAttribute="bottom" type="default" id="UVU-AB-bo8"/>
+                            <constraint firstItem="2hZ-1D-X5f" firstAttribute="trailing" secondItem="8a4-bx-ObW" secondAttribute="trailing" type="default" id="YB0-yt-8ka"/>
+                            <constraint firstItem="2hZ-1D-X5f" firstAttribute="leading" secondItem="8a4-bx-ObW" secondAttribute="leading" type="default" id="bbn-DJ-Tw4"/>
+                            <constraint firstItem="Wu5-re-kvL" firstAttribute="bottom" secondItem="2hZ-1D-X5f" secondAttribute="top" type="default" id="fJy-iA-Y2l"/>
+                            <constraint firstItem="Wu5-re-kvL" firstAttribute="leading" secondItem="8a4-bx-ObW" secondAttribute="leading" type="default" id="iX2-oE-eNU"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="LogIn" id="TEQ-V0-Ral">
+                            <connections>
+                                <action selector="LogInClick:" destination="2" id="bE6-P3-9gb"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Refresh" id="1ew-af-W6s">
+                            <connections>
+                                <action selector="RefreshClick:" destination="2" id="hFg-8u-A7L"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Invalidate" id="yes-VE-ZAN">
+                            <connections>
+                                <action selector="InvalidateClick:" destination="2" id="0eI-YW-dU4"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <connections>
+                        <outlet property="LogInButton" destination="hmw-Qd-OtG" id="qX3-Ro-zVT"/>
+                        <outlet property="OobButton" destination="hBs-iH-ZBu" id="HeD-zA-XpV"/>
+                        <outlet property="RefreshButton" destination="cav-wL-suG" id="3mw-Ff-dku"/>
+                        <outlet property="webView" destination="Wu5-re-kvL" id="Mpc-i1-gC5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="LogInClick:"/>
+                <relationship kind="action" name="OobClick:"/>
+                <relationship kind="action" name="RefreshClick:"/>
+                <relationship kind="outlet" name="LogInButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="OobButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="RefreshButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

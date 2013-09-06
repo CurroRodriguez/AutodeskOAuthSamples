@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7699A2A178EFD5E008A74A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7699A29178EFD5E008A74A6 /* UIKit.framework */; };
+		F7699A2C178EFD5E008A74A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7699A2B178EFD5E008A74A6 /* Foundation.framework */; };
+		F7699A2E178EFD5E008A74A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7699A2D178EFD5E008A74A6 /* CoreGraphics.framework */; };
+		F7699A34178EFD5E008A74A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7699A32178EFD5E008A74A6 /* InfoPlist.strings */; };
+		F7699A36178EFD5E008A74A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7699A35178EFD5E008A74A6 /* main.m */; };
+		F7699A3A178EFD5E008A74A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7699A39178EFD5E008A74A6 /* AppDelegate.m */; };
+		F7699A3C178EFD5E008A74A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F7699A3B178EFD5E008A74A6 /* Default.png */; };
+		F7699A3E178EFD5E008A74A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7699A3D178EFD5E008A74A6 /* Default@2x.png */; };
+		F7699A40178EFD5E008A74A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7699A3F178EFD5E008A74A6 /* Default-568h@2x.png */; };
+		F7699A43178EFD5E008A74A6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7699A41178EFD5E008A74A6 /* MainStoryboard_iPhone.storyboard */; };
+		F7699A46178EFD5E008A74A6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7699A44178EFD5E008A74A6 /* MainStoryboard_iPad.storyboard */; };
+		F7699A49178EFD5E008A74A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7699A48178EFD5E008A74A6 /* ViewController.m */; };
+		F7699A5F17972798008A74A6 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = F7699A5E17972798008A74A6 /* TDOAuth.m */; };
+		F7B0E2A017A86F750099F0D2 /* logo_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B0E29F17A86F750099F0D2 /* logo_57x57.png */; };
+		F7B0E2A217A86F790099F0D2 /* logo_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B0E2A117A86F790099F0D2 /* logo_114x114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7699A26178EFD5E008A74A6 /* AdskOAuth iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdskOAuth iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7699A29178EFD5E008A74A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7699A2B178EFD5E008A74A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7699A2D178EFD5E008A74A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7699A31178EFD5E008A74A6 /* AdskOAuth iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdskOAuth iOS-Info.plist"; sourceTree = "<group>"; };
+		F7699A33178EFD5E008A74A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7699A35178EFD5E008A74A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7699A37178EFD5E008A74A6 /* AdskOAuth iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdskOAuth iOS-Prefix.pch"; sourceTree = "<group>"; };
+		F7699A38178EFD5E008A74A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7699A39178EFD5E008A74A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7699A3B178EFD5E008A74A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F7699A3D178EFD5E008A74A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F7699A3F178EFD5E008A74A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F7699A42178EFD5E008A74A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F7699A45178EFD5E008A74A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F7699A47178EFD5E008A74A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7699A48178EFD5E008A74A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7699A5D17972798008A74A6 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		F7699A5E17972798008A74A6 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
+		F7B0E29F17A86F750099F0D2 /* logo_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_57x57.png; path = ../logo_57x57.png; sourceTree = "<group>"; };
+		F7B0E2A117A86F790099F0D2 /* logo_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_114x114.png; path = ../logo_114x114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7699A23178EFD5E008A74A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7699A2A178EFD5E008A74A6 /* UIKit.framework in Frameworks */,
+				F7699A2C178EFD5E008A74A6 /* Foundation.framework in Frameworks */,
+				F7699A2E178EFD5E008A74A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7699A1D178EFD5D008A74A6 = {
+			isa = PBXGroup;
+			children = (
+				F7699A2F178EFD5E008A74A6 /* AdskOAuth */,
+				F7699A28178EFD5E008A74A6 /* Frameworks */,
+				F7699A27178EFD5E008A74A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7699A27178EFD5E008A74A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7699A26178EFD5E008A74A6 /* AdskOAuth iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7699A28178EFD5E008A74A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7699A29178EFD5E008A74A6 /* UIKit.framework */,
+				F7699A2B178EFD5E008A74A6 /* Foundation.framework */,
+				F7699A2D178EFD5E008A74A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7699A2F178EFD5E008A74A6 /* AdskOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F7699A5D17972798008A74A6 /* TDOAuth.h */,
+				F7699A5E17972798008A74A6 /* TDOAuth.m */,
+				F7699A38178EFD5E008A74A6 /* AppDelegate.h */,
+				F7699A39178EFD5E008A74A6 /* AppDelegate.m */,
+				F7699A41178EFD5E008A74A6 /* MainStoryboard_iPhone.storyboard */,
+				F7699A44178EFD5E008A74A6 /* MainStoryboard_iPad.storyboard */,
+				F7699A47178EFD5E008A74A6 /* ViewController.h */,
+				F7699A48178EFD5E008A74A6 /* ViewController.m */,
+				F7699A30178EFD5E008A74A6 /* Supporting Files */,
+			);
+			name = AdskOAuth;
+			path = "AdskOAuth iOS";
+			sourceTree = "<group>";
+		};
+		F7699A30178EFD5E008A74A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7699A31178EFD5E008A74A6 /* AdskOAuth iOS-Info.plist */,
+				F7B0E2A117A86F790099F0D2 /* logo_114x114.png */,
+				F7B0E29F17A86F750099F0D2 /* logo_57x57.png */,
+				F7699A32178EFD5E008A74A6 /* InfoPlist.strings */,
+				F7699A35178EFD5E008A74A6 /* main.m */,
+				F7699A37178EFD5E008A74A6 /* AdskOAuth iOS-Prefix.pch */,
+				F7699A3B178EFD5E008A74A6 /* Default.png */,
+				F7699A3D178EFD5E008A74A6 /* Default@2x.png */,
+				F7699A3F178EFD5E008A74A6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7699A25178EFD5E008A74A6 /* AdskOAuth iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7699A4C178EFD5E008A74A6 /* Build configuration list for PBXNativeTarget "AdskOAuth iOS" */;
+			buildPhases = (
+				F7699A22178EFD5E008A74A6 /* Sources */,
+				F7699A23178EFD5E008A74A6 /* Frameworks */,
+				F7699A24178EFD5E008A74A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdskOAuth iOS";
+			productName = OxygenTest;
+			productReference = F7699A26178EFD5E008A74A6 /* AdskOAuth iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7699A1E178EFD5D008A74A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Adam Nagy";
+			};
+			buildConfigurationList = F7699A21178EFD5D008A74A6 /* Build configuration list for PBXProject "AdskOAuth iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7699A1D178EFD5D008A74A6;
+			productRefGroup = F7699A27178EFD5E008A74A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7699A25178EFD5E008A74A6 /* AdskOAuth iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7699A24178EFD5E008A74A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7699A34178EFD5E008A74A6 /* InfoPlist.strings in Resources */,
+				F7699A3C178EFD5E008A74A6 /* Default.png in Resources */,
+				F7699A3E178EFD5E008A74A6 /* Default@2x.png in Resources */,
+				F7699A40178EFD5E008A74A6 /* Default-568h@2x.png in Resources */,
+				F7699A43178EFD5E008A74A6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F7699A46178EFD5E008A74A6 /* MainStoryboard_iPad.storyboard in Resources */,
+				F7B0E2A017A86F750099F0D2 /* logo_57x57.png in Resources */,
+				F7B0E2A217A86F790099F0D2 /* logo_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7699A22178EFD5E008A74A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7699A36178EFD5E008A74A6 /* main.m in Sources */,
+				F7699A3A178EFD5E008A74A6 /* AppDelegate.m in Sources */,
+				F7699A49178EFD5E008A74A6 /* ViewController.m in Sources */,
+				F7699A5F17972798008A74A6 /* TDOAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7699A32178EFD5E008A74A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7699A33178EFD5E008A74A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7699A41178EFD5E008A74A6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7699A42178EFD5E008A74A6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F7699A44178EFD5E008A74A6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7699A45178EFD5E008A74A6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7699A4A178EFD5E008A74A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7699A4B178EFD5E008A74A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7699A4D178EFD5E008A74A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdskOAuth iOS/AdskOAuth iOS-Prefix.pch";
+				INFOPLIST_FILE = "AdskOAuth iOS/AdskOAuth iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "AdskOAuth iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7699A4E178EFD5E008A74A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdskOAuth iOS/AdskOAuth iOS-Prefix.pch";
+				INFOPLIST_FILE = "AdskOAuth iOS/AdskOAuth iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "AdskOAuth iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7699A21178EFD5D008A74A6 /* Build configuration list for PBXProject "AdskOAuth iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7699A4A178EFD5E008A74A6 /* Debug */,
+				F7699A4B178EFD5E008A74A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7699A4C178EFD5E008A74A6 /* Build configuration list for PBXNativeTarget "AdskOAuth iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7699A4D178EFD5E008A74A6 /* Debug */,
+				F7699A4E178EFD5E008A74A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7699A1E178EFD5D008A74A6 /* Project object */;
+}

@@ -1,0 +1,17 @@
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\bin\Debug\AutoCAD_Authentication.dll
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\bin\Debug\AutoCAD_Authentication.pdb
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\bin\Debug\RestSharp.dll
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\bin\Debug\RestSharp.xml
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication.csprojResolveAssemblyReference.cache
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\UserControl1.baml
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\UserControl1.g.cs
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication_MarkupCompile.cache
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication.g.resources
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication.Properties.Resources.resources
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication.csproj.GenerateResource.Cache
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication.dll
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\AutoCAD_Authentication.pdb
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\OAuthProcess.baml
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\OAuthProcess.g.cs
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\BrowserAuthenticate.baml
+C:\Tasks\Official\WebAndMobile\Security\Samples\AutoCAD_Authentication\AutoCAD_Authentication\obj\Debug\BrowserAuthenticate.g.cs

@@ -1,0 +1,44 @@
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\resources.pri
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AppxManifest.xml
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AdnOxygenWinRT.build.appxrecipe
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\priconfig.xml
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\layout.resfiles
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\resources.resfiles
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\pri.resfiles
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\LanguageQualifiers.txt
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\ProjectArchitectures.txt
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\priconfig.xml.intermediate
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\layout.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\resources.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\pri.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\resources.pri
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AppxManifest.xml
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AdnOxygenWinRT.build.appxrecipe
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\priconfig.xml
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\layout.resfiles
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\resources.resfiles
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\pri.resfiles
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\LanguageQualifiers.txt
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\ProjectArchitectures.txt
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AdnWebUtility.winmd
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AdnWebUtility.pdb
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bin\Debug\AdnWebUtility.pri
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\priconfig.xml.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\layout.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\resources.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\pri.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\AdnWebUtility.pri.xml
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygenWinRT\AdnOxygenWinRT\bld\Debug\AdnOxygenWinRT.jsprojResolveAssemblyReference.cache
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bin\Debug\resources.pri
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bin\Debug\AppxManifest.xml
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bin\Debug\AdnOxygenWinRT.build.appxrecipe
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\priconfig.xml.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\layout.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\resources.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\pri.resfiles.intermediate
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\priconfig.xml
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\layout.resfiles
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\resources.resfiles
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\pri.resfiles
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\LanguageQualifiers.txt
+C:\Users\PhilouNeuch\Desktop\Oxgen\AdnOxygen WinRT-Js\AdnOxygenWinRT\bld\Debug\ProjectArchitectures.txt

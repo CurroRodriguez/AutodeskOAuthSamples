@@ -1,0 +1,9 @@
+﻿<Window x:Class="AutoCAD_Authentication.BrowserAuthenticate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BrowserAuthenticate" Height="593.004" Width="605.597" Loaded="Window_Loaded">
+    <Grid>
+        <WebBrowser x:Name="brwsrCtrl" HorizontalAlignment="Left" Height="545" Margin="10,10,0,0" VerticalAlignment="Top" Width="579" Loaded="brwsrCtrl_Loaded" LoadCompleted="brwsrCtrl_LoadCompleted"/>
+
+    </Grid>
+</Window>

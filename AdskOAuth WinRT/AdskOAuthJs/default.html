@@ -1,0 +1,85 @@
+﻿<!--/////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) Autodesk, Inc. All rights reserved 
+// Written by Philippe Leefsma 2013 - ADN/Developer Technical Services
+//
+// Permission to use, copy, modify, and distribute this software in
+// object code form for any purpose and without fee is hereby granted, 
+// provided that the above copyright notice appears in all copies and 
+// that both that copyright notice and the limited warranty and
+// restricted rights notice below appear in all supporting 
+// documentation.
+//
+// AUTODESK PROVIDES THIS PROGRAM "AS IS" AND WITH ALL FAULTS. 
+// AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF
+// MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE.  AUTODESK, INC. 
+// DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
+// UNINTERRUPTED OR ERROR FREE.
+/////////////////////////////////////////////////////////////////////////////////-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ADN OAuth Logger</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet" />
+
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <script src="/js/default.js"></script>
+    <script src="/js/oauth.js" ></script>
+    <script src="/js/sha1.js" ></script>
+    <script src="/js/AdnOAuthConnector.js" ></script>
+
+</head>
+
+<body>
+
+        <!-- Simple template for the ListView instantiation  -->
+        <div id="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display:normal">
+            <div class="smallListIconTextItem">
+                <div class="smallListIconTextItem-Detail">
+                    <h4 data-win-bind="innerText: name"></h4>
+                    <h6 data-win-bind="innerText: value"></h6>
+                </div>
+            </div>
+        </div>  
+
+        <!-- The declarative markup necesary for ListView instantiation -->
+        <div id="infoList" 
+            class="win-selectionstylefilled"
+            data-win-control="WinJS.UI.ListView" 
+            data-win-options="{ 
+                itemTemplate: smallListIconTextTemplate, 
+                selectionMode: 'none', 
+                tapBehavior: 'none', 
+                swipeBehavior: 'none', 
+                layout: { type: WinJS.UI.GridLayout } 
+            }"
+        ></div>
+
+    <div id="AppBar" data-win-control="WinJS.UI.AppBar" data-win-options=""/>
+
+    <button 
+        data-win-control="WinJS.UI.AppBarCommand" 
+        data-win-options="{id:'cmdLogin', label:'Log In', icon:'closepane', section:'selection', tooltip:'OAuth Login'}">
+    </button>
+
+    <button 
+        data-win-control="WinJS.UI.AppBarCommand" 
+        data-win-options="{id:'cmdRefresh', label:'Refresh Token', icon:'refresh', section:'selection',tooltip:'Refreshes current token'}">
+    </button>
+
+    <hr data-win-control="WinJS.UI.AppBarCommand" 
+        data-win-options="{id:'cmdSeparator', type:'separator',section:'selection'}"/>
+
+    <button 
+        data-win-control="WinJS.UI.AppBarCommand" 
+        data-win-options="{id:'cmdLogout', label:'Log Out', icon:'openpane',section:'selection', tooltip:'OAuth Logout'}">
+    </button>
+
+</body>
+</html>
