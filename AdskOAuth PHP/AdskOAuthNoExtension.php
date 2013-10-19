@@ -40,6 +40,21 @@
  
  The sample also does a log-out at the end to complete the sample.
  
+ In case you want to use Fiddler to debug the HTTP request, you can add
+ CURLOPT_PROXY => '127.0.0.1:8888'
+ to the curl options.
+ But you would also need to modify the library code tocope with the Fiddler header.
+ Modify oauth/OAuthRequester.php
+  a- requestRequestToken() line # 161
+  b- requestAccessToken() line # 248
+ with this
+ 	$text	= $oauth->curl_raw($curl_options);
+if ( isset ($curl_options [CURLOPT_PROXY]) ) {
+	$text =substr ($text, 4) ;
+	$text =strstr ($text, 'HTTP') ;
+}		
+	if (empty($text))
+
 */
 
 include_once "vendor/oauth/OAuthStore.php" ;
