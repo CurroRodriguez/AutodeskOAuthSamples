@@ -24,7 +24,7 @@ The only thing needed to be modified in it was the function
 "oauth_session_handle" to the "Authorization" header of the POST message
 
 In the sample, you will need to replace the following place holders inside
-ViewController.m with the appropriate values:
+UserSettings.h with the appropriate values:
 
 #define O2_OAUTH_KEY     @"your.consumer.key.here"
 #define O2_OAUTH_SECRET  @"your.comsumer.secret.key.here"

@@ -46,6 +46,7 @@
 		F7699A5E17972798008A74A6 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
 		F7B0E29F17A86F750099F0D2 /* logo_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_57x57.png; path = ../logo_57x57.png; sourceTree = "<group>"; };
 		F7B0E2A117A86F790099F0D2 /* logo_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_114x114.png; path = ../logo_114x114.png; sourceTree = "<group>"; };
+		F7DA77CC182176DC00FFC44F /* UserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettings.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 		F7699A2F178EFD5E008A74A6 /* AdskOAuth */ = {
 			isa = PBXGroup;
 			children = (
+				F7DA77CC182176DC00FFC44F /* UserSettings.h */,
 				F7699A5D17972798008A74A6 /* TDOAuth.h */,
 				F7699A5E17972798008A74A6 /* TDOAuth.m */,
 				F7699A38178EFD5E008A74A6 /* AppDelegate.h */,

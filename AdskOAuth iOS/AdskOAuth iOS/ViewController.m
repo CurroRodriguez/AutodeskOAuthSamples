@@ -26,18 +26,13 @@
 // add "oauth_session_handle" to the "Authorization" header of
 // the POST message
 #import "TDOAuth.h"
+#include "UserSettings.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
-// Fill in these 3 macros with the correct information
-#define O2_OAUTH_KEY     @"your.consumer.key.here"
-#define O2_OAUTH_SECRET  @"your.comsumer.secret.key.here"
-// Do NOT add the "https://" prefix!
-#define O2_HOST          @"your.oauth.server.here"
 
 #define O2_AUTHORIZE     @"https://" O2_HOST @"/OAuth/Authorize"
 #define O2_ALLOW         @"https://" O2_HOST @"/OAuth/Allow"
@@ -137,15 +132,11 @@ NSString * authorizationExpires;
 /// Autodesk login system
 - (void)Authorize
 {
-  // Get rid of the URL encoding (%3D, etc)
-  NSString * requestToken_clean = [requestToken
-    stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-  
   NSString * path =
   [NSString
    stringWithFormat:@"%@?oauth_token=%@&viewmode=mobile",
    O2_AUTHORIZE,
-   requestToken_clean ];
+   requestToken];
   
   // In case of out-of-band authorization, let's show the
   // authorization page which will provide the user with a PIN
