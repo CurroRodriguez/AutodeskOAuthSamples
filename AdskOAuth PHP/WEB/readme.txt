@@ -17,7 +17,7 @@
  DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
  UNINTERRUPTED OR ERROR FREE.
  
- These samples use the stagging Oxygen server to demo the '3 legs' process to authentify
+ These samples use the staging Oxygen server to demo the '3 legs' process to authentify
  a user on the Autodesk Cloud infrastructure.
  
  AdskOAuthWebNoExtension.php uses cURL and the Google framework.
