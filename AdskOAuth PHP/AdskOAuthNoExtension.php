@@ -19,7 +19,7 @@
  DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
  UNINTERRUPTED OR ERROR FREE.
  
- This sample uses the stagging Oxygen server to demo the '3 legs' process to authentify
+ This sample uses the staging Oxygen server to demo the '3 legs' process to authentify
  a user on the Autodesk Cloud infrastructure.
  
  After installing PHP on your system, you need to install the Google PHP OAuth library
